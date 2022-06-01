@@ -1,0 +1,32 @@
+{
+  "name": "restful",
+  "version": "1.0.0",
+  "description": "RESTful API nodejs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptsuardana01/restful-nodejs.git"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "nodejs"
+  ],
+  "author": "ptsuardana01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptsuardana01/restful-nodejs/issues"
+  },
+  "homepage": "https://github.com/ptsuardana01/restful-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

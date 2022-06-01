@@ -1,0 +1,29 @@
+GET http://localhost:3000/notif
+
+###
+GET http://localhost:3000/notif/62976e469f006b900bb06fe3
+
+###
+POST http://localhost:3000/notif
+Content-Type: application/json
+
+{
+    "title": "Testing Notification 5",
+    "author": "Commputer",
+    "to": "Omang Jegeg",
+    "desc": "Testing Notification lewat restful api nodejs ke 5"
+}
+
+###
+PATCH http://localhost:3000/notif/62976de5f64fdedec7fc911a
+Content-Type: application/json
+
+{
+    "title": "Testing Ajalah",
+    "author": "Commputer",
+    "to": "Pudidi",
+    "desc": "Testing Notification lewat restful api nodejs yang ke 3"
+}
+
+###
+DELETE  http://localhost:3000/notif/62976de5f64fdedec7fc911a
